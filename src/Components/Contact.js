@@ -75,12 +75,12 @@ class Contact extends Component {
 
                <div className="widget widget_contact">
 
-					   <h4>Address and Phone</h4>
+					   <h4>Contact Info</h4>
 					   <p className="address">
 						   {name}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+						   <span>{phone}</span> <br />
                <span>{email}</span>
 					   </p>
 
